@@ -37,11 +37,11 @@
 				</nav>
 				<aside>
 					<ul>
-						<li><a href="search.jsp">查詢系統</a></li>
+						<li><a href="search.jsp">1系統</a></li>
 						<li><a href="login.jsp">登入</a></li>
-						<li><a href="application.jsp">申/調系統</a></li>
-						<li><a href="signed.jsp">簽核系統</a></li>
-						<li><a href="management.jsp">管理系統</a></li>
+						<li><a href="application.jsp">2系統</a></li>
+						<li><a href="signed.jsp">3系統</a></li>
+						<li><a href="management.jsp">4系統</a></li>
 					</ul>
 					<figure>
 						<img src="images/Ofish.png" alt="" width="90%">

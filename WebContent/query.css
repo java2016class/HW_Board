@@ -1,0 +1,12 @@
+/* 使用設備的螢幕解析度查詢 */
+/* normal */
+
+@import url("css/style.css") screen and (min-width:700px);
+    
+/* mobile */
+
+@import url("css/tablet.css") screen and (max-width:699px);
+    
+/* mobile 320 */
+
+@import url("css/mobile.css") screen and (max-device-width:440px);

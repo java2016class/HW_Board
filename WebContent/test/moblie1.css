@@ -1,0 +1,147 @@
+section,
+banner,
+nav,
+aside,
+article,
+footer {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#section1 {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    background-color: aqua;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+banner {
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    background-image: url(../images/banner.png);
+    background-size: 100%;
+    /*    background-blend-mode: lighten;*/
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0.3;
+}
+
+nav li {
+    float: right;
+    font-size: 70%
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: cornflowerblue;
+    background-color: azure;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 130%;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    background-color: cyan;
+}
+
+aside {
+    padding-left: 0px;
+    clear: both;
+    padding-top: 1%;
+    float: left;
+    font-size: 10%;
+}
+
+
+aside ul {
+    padding-left: 1%;
+}
+
+aside figure {
+    margin: 1%;
+}
+
+aside img {
+    width: 10%;
+}
+
+aside figcaption {
+    font-size: 0;
+}
+
+aside span {
+    margin: 1%;
+}
+
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-menu > ul {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-menu > span:focus ~ ul {
+  display: block;
+}
+
+article {
+    float: right;
+    width: 80%;
+}
+
+article h1 {
+    font-size: 40%;
+}
+
+article figure img {
+    width: 30%;
+}
+
+article figure figcaption {
+    font-size: 30%;
+}
+
+article p {
+    font-size: 30%;
+}
+
+footer {
+    clear: both;
+    font-size: 30%;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 9px;
+}
+
+a {
+    text-decoration: none;
+}
